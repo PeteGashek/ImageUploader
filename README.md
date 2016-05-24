@@ -14,7 +14,7 @@ How to use:
 
         path.to.uploadedImages = D:\\YourFolderName\\ImagesForTestServiceForAngular
 - mvn tomcat7:run from console or in IDE
-- next you can use postman or index page to upload your image. There you can modify url field to create different hub and subfolder structutre
+- Use POST/GET endpionts . There you can modify url field to create different hub and subfolder structutre
 If subfolder for the sertain name will be absent then it will be created.
 
 - This pattern can be used :
