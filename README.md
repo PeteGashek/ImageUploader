@@ -14,7 +14,7 @@ How to use:
 - mvn tomcat7:run from console or in IDE
 - in application.properties set path to  your image directory, for example :
 
-        path.to.uploadedImages = /Users/ghost/Desktop/images
+        path.to.uploadedImages = D:\\YourFolderName\\ImagesForTestServiceForAngular
 - next you can use postman or index page to upload your image. There you can modify url field to create different hub and subfolder structutre
 If subfolder for the sertain name will be absent then it will be created.
 
