@@ -10,11 +10,10 @@ Spring boot REST Service to upload and download image thumbnails(for each image 
 - Embeded Tomcat 7 as a servlet container
 
 How to use:
-
-- mvn tomcat7:run from console or in IDE
 - in application.properties set path to  your image directory, for example :
 
         path.to.uploadedImages = D:\\YourFolderName\\ImagesForTestServiceForAngular
+- mvn tomcat7:run from console or in IDE
 - next you can use postman or index page to upload your image. There you can modify url field to create different hub and subfolder structutre
 If subfolder for the sertain name will be absent then it will be created.
 
